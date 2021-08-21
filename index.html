@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMADS Demo Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+<style>
+#header {
+  background-color: rgb(179,27,27);
+}
+
+#BK {
+  background-color: rgb(249,249,249);
+}
+
+ul li {
+    padding: 5px 0px;
+}
+
+</style>
+
+
+
+</head>
+<body id="BK">
+
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li><a href="#About">About</a></li>
+      <li><a href="#Charter">Charter</a></li>
+      <li><a href="#Calendar">Calendar</a></li>
+      <li><a href="#Blog">Blog</a></li>
+    </ul>
+  </div>
+
+  <div class="jumbotron text-center" id="header">
+    <div class="text-center">
+      <img src="logo.jpg" class="rounded" alt="...">
+    </div>
+  </div>
+
+<div class="container" id="BK">
+  <div class="row justify-content-center">
+
+
+
+    <div class="col-2" id="About">
+      <h1>About</h1>
+
+      <p>Cornell MADS is an alumni association started in XXXX which aims to foster alumni relationships and interactions among MPS alum. We strive to provie alumni a place to learn, grow and connect with their fellow alumni while navigating the ever changing landscape of statistics and data science.</p>
+
+    </div>
+    <div class="col-2" id=#Charter>
+      <h2>Cornell MPS Applied Stats Alumni Charter</h2>
+
+      <p>This document establishes the creation and governance of an alumni-led organization for Cornell University’s <a href="https://stat.cornell.edu/academics/mps">MPS in Applied Statistics.</a> The program is run by the <a href="https://stat.cornell.edu/">Department of Statistics and Data Science (SDS)</a>, which is a partnership among the <a href="https://cis.cornell.edu/">Ann S. Bowers College of Computing & Information Science</a>, the<a href="https://cals.cornell.edu/">College of Agricultural and Life Sciences</a>, and the <a href="https://www.ilr.cornell.edu/">Industrial and Labor Relations school</a>.</p>
+
+      <p>
+      In [[m/d/2021]], this Charter was officially recognized by the Chair of SDS as comprising the governing principles of the newly formed alumni organization.</p>
+
+      <p>This Charter is divided into 3 parts: Creation, Objectives, Rules & Bylaws.</p>
+
+      <h4>Creation</h4>
+
+      <p>The mission of the MPS in Applied Statistics (“the MPS program”) is to prepare its graduates for impactful careers in modern statistics and data sciences. Since the start of the one-year Master’s degree [[in 2005]], alumni of the MPS program are rapidly expanding into different industries, roles, and geographies around the world.</p>
+
+      <p>With this document, we create a new organization called Cornell <b>Masters Alumni in Data Science</b> (“Cornell <b>MADS,</b>”). Membership to Cornell MADS will be open to all graduates of the MPS program. The leadership of Cornell MADS will be managed by an Alumni Board (“the Board”), whose rules and bylaws are outlined below.</p>
+
+      <p>Cornell MADS will provide avenues for interaction among the MPS program’s alumni once they have entered the professional world. Its primary focus will be on serving alumni who are working in industry roles. As appropriate and given interest, it will also serve members working in government, scientific research, or other areas with alumni concentration.</p>
+
+      <h4>Objectives</h4>
+
+      <p>Specifically, the Board sets forth the following objectives:</p>
+      <ol type = "1">
+      <li>Continue professional development for the MPS program’s alumni after graduation, via (a) virtual and in-person networking; (b) technical knowledge sharing; (c) industry standards and expertise; and (d) social and other ethical issues;
+      </li>
+      <li>Facilitate interaction between alumni of different class years, including mentorship between more senior alumni toward more junior alumni;
+      </li>
+      <li>Encourage alumni to serve a fixed term on the Board, in order to continue the Board’s longevity, openness to new ideas, service to its members and its College;
+     </li>
+      <li>Partner with the the SDS department’s constituent colleges’ other <a href="https://cis.cornell.edu/alumni-friends/cis-alumni-advisory-council">alumni organizations, institutes</a>, and ongoing events to engage the MPS program’s alumni in dialogue on wider issues relevant to the data sciences, including those from the computing sciences, social sciences, and biological sciences;</li>
+
+      <li>Consider a role for alumni engagement with the MPS program’s students for job search.</li>
+      </ol>
+
+      <h4>Rules and Bylaws</h4>
+
+      <p>The Board agrees to create four officers, to be assigned the following responsibilities:</p>
+      <ol type="i">
+
+      <li>President (Co-President): Set the vision & agenda of the Board, decide on events with MADS members, understand financial needs, and interface with the department of SDS and the Bowers College.</li>
+
+      <li>Outreach/Partnership Coordinator: Expand engagement with (a) other MPS program alumni, (b) external professionals, companies, or other organizations relevant to statistics and data science. This could include sending out surveys, as well as generating long-term partnerships for future events.</li>
+
+      <li>Events/Digital Marketing Coordinator: Publicize and promote MADS events, and manage digital presence (e.g. LinkedIn, instagram, youtube and other social media platforms)</li>
+
+      <li>Secretary/Finance: Capture and preserve Board meeting records, manage membership and finances as necessary.</li>
+      </ol>
+
+      <p>The Board agrees to create fixed terms for each officer, to be filled on a voluntary basis, for at least one year. In the case of multiple volunteers, we do not specify a mechanism for voting at this time.<p>
+
+      <p>The Board agrees to limit eligibility of officers to MPS program alumni that meet the following conditions:</p>
+      <ol type="i">
+      <li>At least one full year elapsed since completing the degree;</li>
+      <li/>Full-time employment in a job based on modern statistical/data science methods, such as but not limited to:
+      Experimentation, causal inference, machine learning, data engineering, data mining, data analysis, operations research, software development, business intelligence, quantitative finance, quantitative marketing, and others;</li>
+      <li>Willing to commit to monthly meetings.</li>
+      </ol>
+      <p>This Charter is hosted on the Cornell MADS website. To edit this Charter, you must obtain approval of at least three of the Board’s serving officers. Future issues the Board may consider include: collective decision-making (voting), financial dues, local chapters, and any other issue that could expand the organization’s mission to serve alumni.</p>
+
+    </div>
+
+    <div class="col-2" id="Calendar">
+      <h1>Calendar</h1>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=Y29ybmVsbG1hZHNAZ21haWwuY29t&color=%23039BE5&mode=AGENDA&showTitle=0&showNav=0&showPrint=0&showTabs=0&showDate=0" style="border-width:0" width="1200" height="300" frameborder="0" scrolling="no"></iframe>
+
+    </div>
+
+    <div class="col-2" id="blog">
+      <h1>Blog</h1>
+
+      <object type="text/html" data="https://cmadsdemo.blogspot.com/" width="1200px" height="600px" />
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
